@@ -1,0 +1,106 @@
+/* tags */
+
+html{
+    background-image: url('img/fundohtml.jpg');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: Quicksand;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav.black{
+    background: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    padding: 0px 100px;
+}
+
+nav .logo{
+    padding: 9px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24x;
+    transition: .3s;
+}
+
+nav .blanck .logo{
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    border-radius: 6px;    
+    background-color: #394b888c;
+} 
+
+nav.blanck ul li a {
+    color: #fff;
+}
+
+nav ul li a:focus{
+    outline: none;
+}
+
+
+
+/* classes */
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.parallax{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.parallax.ultimo{
+    background: url('img/curiosidade01.jpg') no-repeat center;
+
+}
+.parallax.primeiro{
+    background: url('img/curiosidade02.jpg') no-repeat center;
+
+}
+.parallax.segundo{
+    background: url('img/curiosidade03.jpg') no-repeat center;
+
+}
