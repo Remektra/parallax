@@ -53,7 +53,7 @@ nav ul li{
 
 nav ul li a {
     line-height: 80px;
-    color: #151515;
+    color: white;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -74,6 +74,9 @@ nav ul li a:focus{
     outline: none;
 }
 
+p{
+    color: white;
+}
 
 
 /* classes */
@@ -81,18 +84,18 @@ nav ul li a:focus{
 .container{
     max-width: 90%;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: #192d5c40;
     font-size: 24px;
     padding: 25px;
 }
 
-.parallax{
+/* .parallax{
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
-}
+} */
 
-.parallax.ultimo{
+/* .parallax.ultimo{
     background: url('img/curiosidade01.jpg') no-repeat center;
 
 }
@@ -103,4 +106,69 @@ nav ul li a:focus{
 .parallax.segundo{
     background: url('img/curiosidade03.jpg') no-repeat center;
 
+} */
+
+.imagem{
+    display: none;
+}
+
+.ativa{
+    display: block;
+}
+
+.galeria{
+    margin-left: 15%; 
+    margin-top: 5%;   
+}
+
+.card1{
+    float: left;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: solid #9993;
+    width: 25%;
+    height: 400px;
+    background-color: #8f94a09c;
+    box-shadow: 5px 5px #9993;
+
+}
+
+.btnCuriosidades{
+    color: white;
+    border: solid #2B3041;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 75%;
+    width: 20%;
+    height: 50px;
+    background-color: #2B3041;
+    
+}
+
+.btnCuriosidades:hover{
+    background-color: #111;    
+}
+
+.localizacao{
+    padding-left: 20px;
+}
+
+
+/* Id's */
+
+#cartao0{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#cartao1{
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+#cartao2{
+    margin-left: 5%;
+    margin-top: 5%;
+    
 }
