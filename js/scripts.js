@@ -1,6 +1,4 @@
 
-// animação nav bar
-
 
 // nav change the color by move the scroll
 

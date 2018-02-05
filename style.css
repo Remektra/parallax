@@ -75,7 +75,14 @@ nav ul li a:focus{
 }
 
 p{
+    font-size: 18px;
     color: white;
+}
+
+h5{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -116,6 +123,10 @@ p{
     display: block;
 }
 
+.prgfH{
+    display: none;
+}
+
 .galeria{
     margin-left: 15%; 
     margin-top: 5%;   
@@ -123,6 +134,7 @@ p{
 
 .card1{
     float: left;
+    padding-top: 20px;    
     padding-left: 20px;
     border-radius: 5px;
     border: solid #9993;
